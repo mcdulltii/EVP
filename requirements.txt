@@ -1,10 +1,11 @@
---extra-index-url https://download.pytorch.org/whl/cu113
-torch==1.13.1
-torchvision==0.14.1
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+numpy==1.26.4
 salesforce-lavis
 bitsandbytes==0.37.0
-transformers==4.35.2 
-diffusers 
+transformers==4.35.2
+diffusers
 invisible-watermark
 accelerate
 albumentations==0.4.3
@@ -21,7 +22,11 @@ torch-fidelity==0.3.0
 torchmetrics==0.6.0
 kornia==0.6
 streamlit-drawable-canvas==0.8
-mmcv-full==1.7.1
+mmcv-full>=1.7.1
 tensorboardX==2.6.2.2
+matplotlib
+wandb
+scipy
+scikit-learn
 -e git+https://github.com/openai/CLIP.git@main#egg=clip
 -e git+https://github.com/CompVis/taming-transformers.git#egg=taming-transformers
