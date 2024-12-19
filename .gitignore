@@ -8,6 +8,7 @@ __pycache__/
 refer/refer/data/
 depth/kitti_dataset/
 depth/nyu_depth_v2/
+Output
 
 # C extensions
 .so
